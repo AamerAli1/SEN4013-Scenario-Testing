@@ -14,7 +14,7 @@ import static org.testng.Assert.assertTrue;
 public class HomePage extends PageBase {
 
     String productUrl = "http://localhost:8000/products/";
-    String failedUrl = "http://localhost:8000/accounts/login/";
+    String failedUrl = "http://localhost:8000/login/";
     String waitingPageUrl = "http://localhost:8000/waitingPage/";
     String wishListUrl = "http://localhost:8000/order-summary/";
     By signInUserButton = By.className("sign-in");
